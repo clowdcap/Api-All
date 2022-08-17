@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./../index.css">
+    </head>
+    <body>
+        <div class="root">
+            <section class="aside">
+                <div class="back"><a href="./../index.html">< Voltar</a></div>
+                <h2>Slip</h2>
+                <form class="form" method="post">
+                    <label for="pesquisa">ID</label>
+                    <input type="number" name="pesquisa" id="pesquisa" default="1">
+                    <input class="botao" type="button" value="Pesquisar">
+                </form> <!-- .form -->
+
+            </section> <!-- .aside -->
+        
+            <section class="main">
+                <h2>Slip</h2>
+                
+                <form class="info">
+                    <p>ID: # <span class="id_slip_html"></span></p>
+                    <h2 id="nome_slip"></h2>
+                </form> <!-- .info -->
+            </section> <!-- .main -->
+
+        </div> <!-- #root -->
+        <script src="./slip.js"></script>
+    </body>
+</html>
+
