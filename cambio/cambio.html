@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./../index.css">
+
+    </head>
+    <body>
+        <div class="root">
+            <section class="aside">
+                <div class="back"><a href="./../index.html">< Voltar</a></div>
+                <h2>Câmbio</h2>
+                <form class="form" method="post">
+
+                    <select class="lista_to">
+                        <option value="BRL">BRL</option>
+                        <option value="USD">USD</option>
+                    </select>
+
+                    <select class="lista_from">
+                        <option value="BRL">BRL</option>
+                        <option value="USD">USD</option>
+                    </select>
+
+                    
+                    <input type="text" name="amount" id="amount_input" placeholder="Valor">
+                    <input class="botao" type="button" value="Pesquisar">
+
+
+
+
+                </form> <!-- .form -->
+
+            </section> <!-- .aside -->
+        
+            <section class="main">
+                <h2>Câmbio</h2>
+                
+                <form class="info">
+                    
+                    <ul>
+                        <li><span>De: </span><span class="to_out"></span></li>
+                        <li><span>Para: </span><span class="from_out"></span></li>
+                        <li><span>Valor: </span><span class="valor_out"></span></li>
+                    </ul>
+
+                </form> <!-- .info -->
+                
+            </section> <!-- .main -->
+            
+        </div> <!-- #root -->
+        <script src="./cambio.js"></script>
+    </body>
+</html>
+
+
+<!-- 
+
+    <input type="text" name="to" id="to_input" placeholder="BRL">
+    <input type="text" name="from" id="from_input" placeholder="USD">
+
+                        <option value="AUD">AUD</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CNY">CNY</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
+
+-->
+

@@ -61,6 +61,10 @@ section.aside {
             color: #999;
         }
 
+        select {
+            width: 11.5rem;
+        }
+
         .form input[type=button] {
             padding: 0.3rem 1rem;
             border: 0;
@@ -167,6 +171,18 @@ section.conteudos {
     font-size: 22px;
 }
 
+.info ul {
+    list-style-type: none;
+}
+
+    .info ul li {
+        text-align: center;
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    
+
 @media screen and (max-width: 700px) {
 
     div.root {
@@ -178,7 +194,7 @@ section.conteudos {
     }
 
     section.aside {
-        min-height: 300px;
+        min-height: 350px;
         height: 40%;
     }
 
@@ -186,6 +202,8 @@ section.conteudos {
         height: 100vh;
     }
 }
+
+
 
 @media screen and (height: 740px) {
 
