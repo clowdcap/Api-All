@@ -3,11 +3,7 @@ api_key = 'apSkSYIf4SGKTIkE3s7XXml4Xp1GXj8s'
 
 /* Pegando valor dos inputs */
 select_to = document.querySelector('.lista_to')
-
-
 select_from = document.querySelector('.lista_from')
-
-
 amount_input = document.querySelector('#amount_input')
 
 /* botao que gera ativa */
@@ -19,7 +15,6 @@ from_out = document.querySelector('.from_out')
 valor_out = document.querySelector('.valor_out')
 
 async function ver_conversao(to, from, amount) {
-
     myHeaders = new Headers()
     myHeaders.append("apikey", api_key)
 
@@ -49,28 +44,3 @@ botao.addEventListener('click', function() {
     ver_conversao(opcao_to, opcao_from, valor)   
 
 })
-
-/*
-
-
-
-var requestOptions = {
-  method: 'GET',
-  redirect: 'follow',
-  headers: myHeaders
-};
-
-fetch("", requestOptions)
-  .then(response => response.text())
-  .then(result => console.log(result))
-  
-
-
-
-  
-    .catch(
-        error => console.log('Erro:', error)
-    )
-  
-  
-*/
