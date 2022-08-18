@@ -22,7 +22,7 @@ ver_slip(1)
 botao.addEventListener('click', function(e) {
     e = input_pesquisa.value
 
-    if (e < 224 && e > 0) {
+    if (e > 0 && e < 225) {
         ver_slip(e)
         console.log(e.advice)
     } else {
@@ -32,5 +32,3 @@ botao.addEventListener('click', function(e) {
 
     
 })
-
-// 224

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./../index.css">
+    </head>
+    <body>
+        <div class="root">
+            <section class="aside">
+                <div class="back"><a href="./../index.html">< Voltar</a></div>
+                <h2>Tempo</h2>
+
+                <form class="form" method="post">
+                    <label for="pesquisa">Cidade</label>
+                    <input type="text" name="pesquisa" id="pesquisa">
+                    <input class="botao" type="button" value="Pesquisar">
+                </form> <!-- .form -->
+            </section> <!-- .aside -->
+        
+            <section class="main">
+                <h2>Tempo</h2>
+                
+                <form class="info">
+                    <h2 id="nome_cidade"></h2>
+                    <p id="coord"></p>
+                    <p id="sys"></p>
+                    <p id="main"></p>
+                    <p id="timezone"></p>
+                    <p id="weather"></p>
+                    <p id="wind"></p>
+                    <p id="clouds"></p>
+                </form> <!-- .info -->
+            </section> <!-- .main -->
+
+        </div> <!-- #root -->
+        <script src="./tempo.js"></script>
+    </body>
+</html>
+

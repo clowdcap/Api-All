@@ -135,7 +135,7 @@ section.conteudos {
         }
 
 
-.back {
+.back, .back_rick {
     padding: 0.5rem;
     background-color: white;
     border-radius: 5px;
@@ -144,12 +144,25 @@ section.conteudos {
     
 }
 
-    .back a {
+.back_rick {
+    background-color: red !important;
+    margin: 0 auto;
+}
+
+    .back a, .back_rick a{
         color: black;
         font-size: 16px;
         text-decoration: none;
     }
 
+        .back_rick a {
+            color: white !important;
+            
+        }
+
+.info p {
+    font-size: 22px;
+}
 
 @media screen and (max-width: 700px) {
 
