@@ -25,7 +25,7 @@ async function ver_cep(cep) {
     cep.innerHTML = data.cep
     logradouro.innerHTML = data.logradouro
     complemento.innerHTML = data.complemento
-    bairro.innerHTML = data.complemento
+    bairro.innerHTML = data.bairro
     localidade.innerHTML = data.localidade
     uf.innerHTML = data.uf
     ibge.innerHTML = data.ibge

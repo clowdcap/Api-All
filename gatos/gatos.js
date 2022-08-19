@@ -11,8 +11,6 @@ async function ver_gato() {
     )
     console.log(data[0])
 
-
-
     id_gato.innerHTML = data[0].id
     img.innerHTML = `<img src=${data[0].url} style="width: 100%; height: 100%" width=${data[0].width} height=${data[0].height} alt="gato">`
 
