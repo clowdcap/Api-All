@@ -11,27 +11,30 @@
         <div class="root">
             <section class="aside">
                 <div class="back"><a href="./../index.html">< Voltar</a></div>
-                <h2>PokeDex</h2>
-
+                <h2>Gatos</h2>
                 <form class="form" method="post">
-                    <label for="pesquisa">Nome or ID</label>
-                    <input type="text" name="pesquisa" id="pesquisa" placeholder="Digite aqui">
-                    <input class="botao" type="button" value="Pesquisar">
+                    <label for="pesquisa">Refresh</label>
+                    <input class="botao" type="button" value="Random">
                 </form> <!-- .form -->
+
             </section> <!-- .aside -->
         
             <section class="main">
-                <h2>PokeDex</h2>
+                <h2>Imagens</h2>
                 
                 <form class="info">
-                    <div class="img"></div> <!-- .img -->
-                    <h2 id="nome_pokemon"></h2>
-                    <p>ID: # <span class="id_pokemon_html"></span></p>
+                    <ul style="text-align: center;">
+                        <p>ID #<span id="id"></span></p>
+                        <div id="img" style="max-width: 400px; padding: 0 1rem;">
+                            <img src=""  alt="">
+                            
+                        </div>
+                    </ul>
                 </form> <!-- .info -->
             </section> <!-- .main -->
 
         </div> <!-- #root -->
-        <script src="./pokemon.js"></script>
+        <script src="./gatos.js"></script>
     </body>
 </html>
 

@@ -29,4 +29,5 @@ ver_pokemom(1)
 botao.addEventListener('click', function(e) {
     e = nome_pesquisa.value
     ver_pokemom(e)
+    nome_pesquisa
 });

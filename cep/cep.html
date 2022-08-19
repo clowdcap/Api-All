@@ -11,27 +11,35 @@
         <div class="root">
             <section class="aside">
                 <div class="back"><a href="./../index.html">< Voltar</a></div>
-                <h2>PokeDex</h2>
-
+                <h2>CEP</h2>
                 <form class="form" method="post">
-                    <label for="pesquisa">Nome or ID</label>
-                    <input type="text" name="pesquisa" id="pesquisa" placeholder="Digite aqui">
+                    <label for="pesquisa">CEP</label>
+                    <input type="number" name="pesquisa" id="pesquisa" default="1">
                     <input class="botao" type="button" value="Pesquisar">
                 </form> <!-- .form -->
+
             </section> <!-- .aside -->
         
             <section class="main">
-                <h2>PokeDex</h2>
+                <h2>Endereço</h2>
                 
                 <form class="info">
-                    <div class="img"></div> <!-- .img -->
-                    <h2 id="nome_pokemon"></h2>
-                    <p>ID: # <span class="id_pokemon_html"></span></p>
+                    <ul>
+                        <li>CEP: <span id="cep"></span></li>
+                        <li>Logradouro: <span id="logradouro"></span></li>
+                        <li>Complemento: <span id="complemento"></span></li>
+                        <li>Bairro: <span id="bairro"></span></li>
+                        <li>Localidade: <span id="localidade"></span></li>
+                        <li>UF: <span id="uf"></span></li>
+                        <li>IBGE: <span id="ibge"></span></li>
+                        <li>DDD: <span id="ddd"></span></li>
+                    </ul>
+
                 </form> <!-- .info -->
             </section> <!-- .main -->
 
         </div> <!-- #root -->
-        <script src="./pokemon.js"></script>
+        <script src="./cep.js"></script>
     </body>
 </html>
 
