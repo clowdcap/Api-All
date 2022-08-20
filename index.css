@@ -125,6 +125,12 @@ section.conteudos {
         width: 50%;
         margin: 0 auto;
     }
+    
+    .itens hr {
+        width: 50%;
+        margin: 10px auto;
+        border-color: #333;
+    }
 
 
     .itens ul {
@@ -140,6 +146,13 @@ section.conteudos {
             color: white;
             font-size: 26px;
         }
+
+        .itens h2 {
+            color: white;
+            font-size: 26px;
+            font-weight: 300;
+        }
+
 
 
 .back, .back_rick {
